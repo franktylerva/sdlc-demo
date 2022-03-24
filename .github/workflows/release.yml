@@ -27,11 +27,6 @@ jobs:
 #      - name: SonarCloud Scan
 #        uses: SonarSource/sonarcloud-github-action@v1.6
 
-  release:
-    needs: [ build ]
-    runs-on: ubuntu-latest
-
-    steps:
       - name: Semantic versioning
         id: versioning
         uses: PaulHatch/semantic-version@v4.0.2
