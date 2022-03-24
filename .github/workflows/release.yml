@@ -28,7 +28,7 @@ jobs:
 #        uses: SonarSource/sonarcloud-github-action@v1.6
 
   release:
-
+    needs: [ build ]
     runs-on: ubuntu-latest
 
     steps:
