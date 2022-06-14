@@ -15,6 +15,6 @@ public class SdlcDemoApplication {
 
 	@GetMapping("/")
 	public String index() {
-		return "Hello World!  Tst";
+		return "Hello World!  Test";
 	}
 }
