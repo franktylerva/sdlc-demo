@@ -1,4 +1,4 @@
 # sdlc-demo
 
-test1
+test
 
