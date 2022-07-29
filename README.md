@@ -1,3 +1,3 @@
 # sdlc-demo
 
-first release
+rc1
