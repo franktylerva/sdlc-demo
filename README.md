@@ -1,3 +1,3 @@
 # sdlc-demo
 
-rc1
+rc0
